@@ -20,6 +20,8 @@ order within a subdirectory.
 - `figures/figure5/` — non-NE reversion following NE transformation (GSEA of NonNE/EMT
   vs LUAD/SCLC); depends on CNV/phylogeny output from `figure3/numbat_cnv_phylogeny/`
 - `figures/figure6/` — treatment alluvial plot visualization
-- `figures/figure7/` — PHOX2B regulatory analysis (GSEA, ChIP-seq, multiome, chromatin
-  accessibility); also depends on `figure3/numbat_cnv_phylogeny/` for CNV-based panels
+- `figures/figure7/` — PHOX2B regulatory analysis (GSEA, ChIP-seq, PHOX2B expression/
+  correlation panels); also depends on `figure3/numbat_cnv_phylogeny/` for CNV-based panels
 - `figures/figureS6/` — CellRank/Palantir trajectory robustness analysis
+- `figures/figureS10/` — PHOX2B/FOXA1 single-cell chromatin accessibility (snATAC
+  multiome, ChromVAR motif accessibility)
